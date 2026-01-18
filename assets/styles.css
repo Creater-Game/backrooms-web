@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+#game {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#ui {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 10;
+}
+
+button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#hint {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,0.8);
+  font-size: 12px;
+}
