@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liminal Backrooms</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="ui">
+    <button id="randomLevelBtn">Random Level</button>
+    <button id="fullscreenBtn">Fullscreen</button>
+    <div id="hint">Click to lock mouse • WASD • Space jump • Shift sprint • C crouch • E door</div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <!-- Three.js from CDN (no install) -->
+  <script type="module">
+    import * as THREE from "https://unpkg.com/three@0.165.0/build/three.module.js";
+    window.THREE = THREE;
+  </script>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
